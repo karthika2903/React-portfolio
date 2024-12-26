@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-primary{
+    /* background: linear-gradient(to right, rgb(85, 81, 227), rgb(0, 255, 255), rgb(255, 0, 255)); */
+    /* background: linear-gradient(to right, rgb(85, 81, 227), rgb(255, 255, 0)); */
+    /* background: linear-gradient(to right, rgba(85, 81, 227, 0.5), rgba(255, 255, 255, 0.5)); */
+    background: linear-gradient(to right, rgb(85, 81, 227), rgb(0, 0, 0));
+}
+.bg-secondary{
+    background: linear-gradient(to right,  rgb(0, 255, 255),rgb(85, 81, 227));
+}
+.border-contact{
+    border-color:rgb(0, 255, 255) ;
+}
+html{
+    scroll-behavior: smooth;
+}
+.bg-mobileMenu{
+    background: rgba(0,0,0,0.5);
+}
+  @keyframes slideFromTop {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideFromBottom {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes bounceEdgeToEdge{
+    0%{
+        transform: translate(0);
+    }
+    50%{
+        transform: translateX(calc(100vw - 100%));
+    }
+    100%{
+        transform: translate(0);
+    }
+  }
+  .hii {
+    animation: slideFromTop 2s ease-in-out forwards;
+  }
+
+  .karthika {
+    animation: slideFromLeft 2s ease-in-out forwards;
+  }
+
+  .mernstack {
+    animation: slideFromBottom 2s ease-in-out 0s forwards, bounceEdgeToEdge 3s ease-in-out 2s infinite;
+     white-space:nowrap;
+     color: li;
+  }
