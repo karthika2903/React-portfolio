@@ -1,6 +1,8 @@
 import React from "react";
 import homeImg from "../assets/homeImg-removebg-preview.png"
-import { AiOutlineGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
+import { AiOutlineGithub} from "react-icons/ai";
+import {AiFillLinkedin} from 'react-icons/ai';
+import {AiFillMail} from 'react-icons/ai';
 
 
 export default function Section() {
