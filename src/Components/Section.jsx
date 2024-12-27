@@ -12,7 +12,7 @@ export default function Section() {
             <h1 className="text-white text-6xl font-section-font ">
                 <span className="hii block"> Hi  </span>
                 <span className="karthika block"> I'm karthika</span>   
-                <p className="mernstack block text-lg m-2  text-black font-extrabold"> I'm a MERN STACK DEVELOPER</p>
+                <p className="mernstack block text-lg m-2 text-color"> I'm a MERN STACK DEVELOPER</p>
             </h1>
             <div className="flex py-9">
                 <a href="mailto:karthikakg2903@gmail.com" target="_blank" className=" pr-5  hover:text-white">< AiFillMail size={40} /></a>

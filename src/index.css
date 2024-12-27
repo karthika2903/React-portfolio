@@ -20,6 +20,9 @@ html{
 .bg-mobileMenu{
     background: rgba(0,0,0,0.5);
 }
+.text-color{
+  color: #7FFF00;
+}
   @keyframes slideFromTop {
     0% {
       transform: translateY(-100%);
@@ -72,7 +75,6 @@ html{
   }
 
   .mernstack {
-    animation: slideFromBottom 2s ease-in-out 0s forwards, bounceEdgeToEdge 3s ease-in-out 2s infinite;
+    animation: slideFromBottom 2s ease-in-out 0s forwards, bounceEdgeToEdge 4s ease-in-out 4s infinite;
      white-space:nowrap;
-     color: li;
   }

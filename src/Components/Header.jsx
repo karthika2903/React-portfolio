@@ -19,11 +19,11 @@ export default function Header() {
         {toggleMenu && <nav className="block md:hidden fixed top-10 left-0  bg-mobileMenu  w-full h-1/4  text-center ">
             <ul onClick={() => setTaggleMenu(!toggleMenu)} className="flex flex-col text-white h-full">
 
-                <li className="px-2  h-full"><a href="/">Home</a></li>
-                <li className="px-2  h-full"><a href="#about">About</a></li>
-                <li className="px-2  h-full"><a href="#projects">Projects</a></li>
-                <li className="px-2  h-full"><a href="#resume">Resume</a></li>
-                <li className="px-2  h-full"><a href="#contact">Contact</a></li>
+                <li className="px-2  h-full font-portfolio-font"><a href="/">Home</a></li>
+                <li className="px-2  h-full font-portfolio-font"><a href="#about">About</a></li>
+                <li className="px-2  h-full font-portfolio-font"><a href="#projects">Projects</a></li>
+                <li className="px-2  h-full font-portfolio-font"><a href="#resume">Resume</a></li>
+                <li className="px-2  h-full font-portfolio-font"><a href="#contact">Contact</a></li>
 
             </ul>
         </nav>}
